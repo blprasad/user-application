@@ -1,0 +1,10 @@
+int  restore_contacts(void);
+//int  restore_contacts(int num,char* name,char* toxid);
+int  save_contact(int nos, char* name, char* toxid);
+int lcdk_open(void);
+void lcdk_close(void);
+void lcdk_dispclr(void);
+int lcdk_disptext(unsigned char line_no,unsigned char column,unsigned char *data,unsigned char font);
+int list_contacts();
+int lcdk_listupdown(int nopts);
+int keypadread(char* keyret);
